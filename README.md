@@ -32,22 +32,7 @@ This pipeline:
 
 ## 🗂️ Project Structure
 
-spotify-etl-pipeline/
-│
-├── lambda/
-│ ├── extract_lambda.py
-│ └── transform_lambda.py
-│
-├── glue/
-│ └── crawler_setup_notes.md
-│
-├── resources/
-│ ├── architecture-diagram.png
-│ └── sample_output/
-│ ├── sample_song.csv
-│ └── sample_artist.csv
-│
-├── README.md
+<pre><code>spotify-etl-pipeline/ ├── lambda/ │ ├── extract.py │ └── transform.py ├── glue/ │ └── crawler_setup_notes.md ├── resources/ │ ├── architecture-diagram.png │ └── sample_output/ │ ├── sample_song.csv │ └── sample_artist.csv ├── README.md ├── requirements.txt └── LICENSE (optional) </code></pre>
 
 
 ---
