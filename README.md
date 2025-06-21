@@ -40,7 +40,8 @@ AWS Glue Crawlers
     ↓
 Athena Tables (songs_data, artists_data)
     ↓
-SQL Queries / Analytics```
+SQL Queries / Analytics
+```text
 
 ---
 
