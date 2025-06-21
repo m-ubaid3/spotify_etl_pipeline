@@ -32,8 +32,6 @@ This pipeline:
 
 ## 🖼️ Architecture Diagram
 
-*(Add your diagram here — upload to `resources/` and link it below)*
-
 ![Architecture](resources/architecture-diagram.png)
 
 ---
