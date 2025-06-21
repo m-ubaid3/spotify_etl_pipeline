@@ -63,16 +63,27 @@ spotify-etl-pipeline/
 ## 🧪 Sample SQL Queries
 
 ```sql
--- Get top 10 popular songs
-SELECT song_name, popularity
-FROM songs
+--Get top 10 most popular songs
+SELECT song_name, popularity, artist_name
+FROM songs_data
 ORDER BY popularity DESC
 LIMIT 10;
 
--- Count songs per artist
+-- Count of songs per artist
 SELECT artist_name, COUNT(*) AS song_count
-FROM songs
+FROM songs_data
 GROUP BY artist_name
 ORDER BY song_count DESC;
+
+-- Songs released after 2020
+SELECT song_name, release_date
+FROM songs_data
+WHERE release_date >= '2020-01-01'
+ORDER BY release_date DESC;
+
+--Find artist details by name
+SELECT *
+FROM artists_data
+WHERE artist_name ILIKE '%weeknd%';
 
 
